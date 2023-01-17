@@ -98,13 +98,12 @@ function App() {
 				"این فرد کیست که هر کس نزدش برود باید فوراً کلاهش را در مقابل او دربیارد؟ حتی بالاترین مقام یک کشور!",
 			answer: "آرایشگر",
 		},
-		{
-			id: (id += 1),
-			question: "",
-			answer: "",
-		},
+		// {
+		// 	id: (id += 1),
+		// 	question: "",
+		// 	answer: "",
+		// },
 	];
-	console.log(Dummy_List);
 	return (
 		<div className="App">
 			<Header />
