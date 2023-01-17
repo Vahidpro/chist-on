@@ -1,5 +1,4 @@
 import "./App.css";
-import Container from "./Components/Container";
 import Header from "./Components/Header/Header";
 import RiddlesList from "./Components/Riddles/RiddlesList";
 
