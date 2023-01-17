@@ -5,10 +5,10 @@ import RiddlesList from "./Components/Riddles/RiddlesList";
 
 function App() {
 	return (
-		<Container className="App">
+		<div className="App">
 			<Header />
 			<RiddlesList></RiddlesList>
-		</Container>
+		</div>
 	);
 }
 
