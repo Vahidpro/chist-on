@@ -3,7 +3,7 @@ import "./Header.css";
 const Header = () => {
 	return (
 		<header className="App-header">
-			<div>Header</div>
+			<h2>چیست ـ آن؟</h2>
 		</header>
 	);
 };
