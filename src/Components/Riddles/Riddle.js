@@ -8,13 +8,16 @@ const Riddle = (props) => {
 
 	let audio = new Audio(notification);
 
+	let [isActive, setIsActive] = useState(false);
+
 	const twoFunction = () => {
 		setHeight(height === 0 ? "auto" : 0);
 		audio.play();
+		setIsActive(true);
 	};
 
 	return (
-		<div className={classes.container}>
+		<div className={isActive ? classes.background_active : classes.container}>
 			<p className={classes.question}>{props.question}</p>
 
 			<button

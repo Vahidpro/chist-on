@@ -55,3 +55,11 @@
 		min-width: 196px;
 	}
 }
+
+.background_active {
+	background-color: #ff00004d;
+	border-radius: 1.5rem;
+	padding: 0.01rem 1rem;
+	margin: 1rem;
+	padding-bottom: 1rem;
+}
