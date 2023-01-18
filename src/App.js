@@ -4,13 +4,16 @@ import RiddlesList from "./Components/Riddles/RiddlesList";
 
 function App() {
 	let id = 1;
+	let number = 1;
 	const Dummy_List = [
 		{
+			number: number,
 			id: id,
 			question: "آن چیست که چیستان است؟",
 			answer: "چیستان دیگه!",
 		},
 		{
+			Number: (number += 1),
 			id: (id += 1),
 			question: "آن چیست که چیستان نیست؟",
 			answer: "فردا",
@@ -113,6 +116,16 @@ function App() {
 			question: "خر در طویله ولی گوش هایش  بیرون است؟",
 			answer: "تیرآهن",
 		},
+		{
+			id: (id += 1),
+			question: "آن چیست؟",
+			answer: "آن",
+		},
+		// {
+		// 	id: (id += 1),
+		// 	question: "",
+		// 	answer: "",
+		// },
 	];
 	return (
 		<div className="App">

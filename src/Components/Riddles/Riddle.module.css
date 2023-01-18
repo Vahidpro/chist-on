@@ -4,7 +4,7 @@
 	font-family: "Vazirmatn", sans-serif;
 }
 .container {
-	background-color: #2225501f;
+	background-color: #262a6628;
 	border-radius: 1.5rem;
 	padding: 0.01rem 1rem;
 	margin: 1rem;
@@ -12,12 +12,14 @@
 }
 .question {
 	font-size: larger;
+	color: #ffffff;
 }
 
 .answer {
 	font-weight: 700;
-	font-size: large;
-	color: blue;
+	font-size: x-large;
+
+	color: rgb(255, 238, 0);
 }
 
 .btn_answer {
@@ -57,7 +59,7 @@
 }
 
 .background_active {
-	background-color: #ff00004d;
+	background-color: #ff000038;
 	border-radius: 1.5rem;
 	padding: 0.01rem 1rem;
 	margin: 1rem;
