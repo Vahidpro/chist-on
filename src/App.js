@@ -4,7 +4,6 @@ import RiddlesList from "./Components/Riddles/RiddlesList";
 
 function App() {
 	let id = 1;
-	le;
 	const Dummy_List = [
 		{
 			id: id,
