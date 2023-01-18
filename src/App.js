@@ -4,6 +4,7 @@ import RiddlesList from "./Components/Riddles/RiddlesList";
 
 function App() {
 	let id = 1;
+	le;
 	const Dummy_List = [
 		{
 			id: id,
@@ -98,11 +99,21 @@ function App() {
 				"این فرد کیست که هر کس نزدش برود باید فوراً کلاهش را در مقابل او دربیارد؟ حتی بالاترین مقام یک کشور!",
 			answer: "آرایشگر",
 		},
-		// {
-		// 	id: (id += 1),
-		// 	question: "",
-		// 	answer: "",
-		// },
+		{
+			id: (id += 1),
+			question: "آن چیست که وقتی نیست، نیست؟",
+			answer: "هست",
+		},
+		{
+			id: (id += 1),
+			question: "آن چیست که من نمیدانم چیست و تو هم نمیدانی چیست؟",
+			answer: "چیزی است که هردو نمیدانیم",
+		},
+		{
+			id: (id += 1),
+			question: "خر در طویله ولی گوش هایش  بیرون است؟",
+			answer: "تیرآهن",
+		},
 	];
 	return (
 		<div className="App">

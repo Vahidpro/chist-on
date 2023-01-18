@@ -5,7 +5,7 @@ import notification from "../../assets/notification.mp3";
 
 const Riddle = (props) => {
 	const [height, setHeight] = useState(0);
-	let [isActive, setIsActive] = useState(false);
+	const [isActive, setIsActive] = useState(false);
 
 	let audio = new Audio(notification);
 
@@ -29,7 +29,6 @@ const Riddle = (props) => {
 			</button>
 			<AnimateHeight id="example-panel" duration={500} height={height}>
 				<p className={classes.answer}>{props.answer}</p>
-				{/* <button onClick={audio.play()}></button> */}
 			</AnimateHeight>
 		</div>
 	);
