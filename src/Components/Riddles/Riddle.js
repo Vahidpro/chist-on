@@ -5,12 +5,11 @@ import notification from "../../assets/notification.mp3";
 
 const Riddle = (props) => {
 	const [height, setHeight] = useState(0);
+	let [isActive, setIsActive] = useState(false);
 
 	let audio = new Audio(notification);
 
-	let [isActive, setIsActive] = useState(false);
-
-	const twoFunction = () => {
+	const clickHandler = () => {
 		setHeight(height === 0 ? "auto" : 0);
 		audio.play();
 		setIsActive(true);
@@ -23,7 +22,7 @@ const Riddle = (props) => {
 			<button
 				aria-expanded={height !== 0}
 				aria-controls="example-panel"
-				onClick={twoFunction}
+				onClick={clickHandler}
 				className={classes.btn_answer}
 			>
 				{height === 0 ? "جواب" : "بستن"}

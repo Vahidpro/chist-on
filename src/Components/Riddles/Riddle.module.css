@@ -62,4 +62,5 @@
 	padding: 0.01rem 1rem;
 	margin: 1rem;
 	padding-bottom: 1rem;
+	transition: all 1s ease-in;
 }
