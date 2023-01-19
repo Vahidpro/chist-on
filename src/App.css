@@ -20,3 +20,7 @@ html {
 .App-link {
 	color: #59d2f3;
 }
+
+::selection {
+	background-color: crimson;
+}

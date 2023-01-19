@@ -22,7 +22,3 @@
 	padding: 0.5rem;
 	font-family: "Vazirmatn", sans-serif;
 }
-
-::selection {
-	background: rgb(195, 65, 255);
-}
