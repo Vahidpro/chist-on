@@ -15,9 +15,13 @@ const Riddle = (props) => {
 		setIsActive(true);
 	};
 
+	let fixedNum = Number(props.number).toLocaleString("fa-ir");
+
 	return (
 		<div className={isActive ? classes.background_active : classes.container}>
-			<p className={classes.question}>{props.question}</p>
+			<p className={classes.question}>
+				<span>{fixedNum}</span> - {props.question}
+			</p>
 
 			<button
 				aria-expanded={height !== 0}

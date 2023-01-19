@@ -8,6 +8,7 @@ const RiddlesList = (props) => {
 					key={item.id}
 					question={item.question}
 					answer={item.answer}
+					number={item.number}
 				></Riddle>
 			))}
 		</div>
