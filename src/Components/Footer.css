@@ -1,0 +1,21 @@
+/* div {
+	height: 2rem;
+} */
+.dev {
+	background-color: rgb(0, 0, 83);
+	color: blanchedalmond;
+	text-align: center;
+}
+
+/* Footer */
+footer {
+	background: #212121;
+	padding: 0.01rem;
+	margin-top: 3rem;
+}
+
+footer a {
+	color: #00ff40;
+	font-weight: bold;
+	text-decoration: none;
+}

@@ -1,4 +1,5 @@
 import "./App.css";
+import { Footer } from "./Components/Footer";
 import Header from "./Components/Header/Header";
 import RiddlesList from "./Components/Riddles/RiddlesList";
 
@@ -150,6 +151,7 @@ function App() {
 		<div className="App">
 			<Header />
 			<RiddlesList riddles={Dummy_List}></RiddlesList>
+			<Footer></Footer>
 		</div>
 	);
 }
