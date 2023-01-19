@@ -1,5 +1,3 @@
-import classes from "./Footer.css";
-
 export const Footer = () => {
 	return (
 		<footer class="dev">
